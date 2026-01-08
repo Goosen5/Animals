@@ -1,6 +1,6 @@
 public class Animal {
-    private String name;
-    private short age;
+    private final String name;
+    private final short age;
     private String sound;
 
     public Animal(String name, short age) {
@@ -8,7 +8,7 @@ public class Animal {
         this.age = age;
     }
 
-    public void Animal(String name,short age, String sound){
+    public Animal(String name,short age, String sound){
         this.name = name;
         this.age = age;
         this.sound = sound;
