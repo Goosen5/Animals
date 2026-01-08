@@ -21,7 +21,7 @@ public class Animal {
         return this.name;
     }
 
-    String makeSound(){
-        return this.sound;
+    void makeSound(){
+        System.out.println(this.sound);
     }
 }
