@@ -1,4 +1,4 @@
-public class Animal {
+public class Animal implements Pet {
     private final String name;
     private final short age;
     private String sound;
@@ -35,5 +35,10 @@ public class Animal {
 
     protected void eat(String food){
         System.out.println(this.name + " is eating " + food + ".");
+    }
+
+    @Override
+    public void play() {
+        System.out.println(this.name + " is playing.");
     }
 }
