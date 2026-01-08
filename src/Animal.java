@@ -28,4 +28,8 @@ public class Animal {
     void makeSound(){
         System.out.println(this.sound);
     }
+
+    public void eat(){
+        System.out.println(this.name + " is eating.");
+    }
 }
