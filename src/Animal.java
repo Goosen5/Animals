@@ -21,6 +21,10 @@ public class Animal {
         return this.name;
     }
 
+    public static boolean isAlive(){
+        return true;
+    }
+
     void makeSound(){
         System.out.println(this.sound);
     }
