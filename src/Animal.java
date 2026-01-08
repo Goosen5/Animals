@@ -21,7 +21,7 @@ public class Animal {
         return this.name;
     }
 
-    public static boolean isAlive(){
+    protected static boolean isAlive(){
         return true;
     }
 
@@ -29,11 +29,11 @@ public class Animal {
         System.out.println(this.sound);
     }
 
-    public void eat(){
+    protected void eat(){
         System.out.println(this.name + " is eating.");
     }
 
-    public void eat(String food){
+    protected void eat(String food){
         System.out.println(this.name + " is eating " + food + ".");
     }
 }
