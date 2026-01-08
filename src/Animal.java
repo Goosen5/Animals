@@ -32,4 +32,8 @@ public class Animal {
     public void eat(){
         System.out.println(this.name + " is eating.");
     }
+
+    public void eat(String food){
+        System.out.println(this.name + " is eating " + food + ".");
+    }
 }
